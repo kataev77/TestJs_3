@@ -30,7 +30,7 @@ function func(string) {
 console.log(func('Hello world sddccscscsc'));
 
 
-function skidka(summa, skidk) {
+function calculateDiscount(summa, skidk) {
   let a = summa / 100 * skidk;
   return summa - a;
 };
