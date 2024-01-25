@@ -34,7 +34,7 @@ function calculateDiscount(summa, skidk) {
   let a = summa / 100 * skidk;
   return summa - a;
 };
-console.log(skidka(1000, 20));
+console.log(calculateDiscount(1000, 20));
 
 
 function numberHours(Hours) {
